@@ -1,0 +1,28 @@
+.board {
+    width: 400px;
+    margin: auto
+}
+
+.info {
+    width: 400px;
+    margin: auto;
+	color:lightgrey;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+body{
+	margin:0;
+	background:linear-gradient(#3523ae,#1c0446);
+	color: rgba(255, 255, 255, 0.88);
+	   background-image:url(img/world.png);
+	   background-image: url(img/world.png), linear-gradient(#3523ae,#1c0446); /* W3C */
+
+   background-repeat:no-repeat;
+
+   background-size:cover;
+
+}

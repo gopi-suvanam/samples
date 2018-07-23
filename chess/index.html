@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.20.1.js"></script>
+<body>
+<div class="container" style="height:100%">
+	<h2 class="title" style="color:lightgrey">Chess AI using Minimax Algo</h2><hr>
+	<button  style="color:lightgrey" onclick="selfplay()">AI-War </button> 
+	<div id="board" class="board"></div>
+	<div class="info">
+		Search depth:<span id="search-depth"?></span>
+		<!--<select id="search-depth">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3" selected>3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>-->
+
+		<br>
+		<span>Percentage completed: <span id="percent-complete"></span></span>
+		<br>
+		<span>Positions evaluated: <span id="position-count"></span></span>
+		<br>
+		<span>Time: <span id="time"></span></span>
+		<br>
+		<span>Positions/s: <span id="positions-per-s"></span> </span>
+		<br>
+		<br>
+		<div id="move-history" class="move-history">
+		</div>
+	</div>
+</div>
+<script src="lib/jquery/jquery-3.2.1.min.js"></script>
+<script src="lib/chessboardjs/js/chess.js"></script>
+<script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+<script src="../js/utils.js"></script>
+<script src="minimax.js"></script>
+<script src="script.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>
