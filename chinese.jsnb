@@ -33,6 +33,18 @@
       "type": "code"
     },
     {
+      "code": "//这是一段中文代码注释",
+      "status": "[1]<br><span style=\"font-size:8px\">6ms<span></span></span>",
+      "output": "",
+      "type": "code"
+    },
+    {
+      "code": "scrib.show(\"这是一段中文代码注释\")",
+      "status": "[2]<br><span style=\"font-size:8px\">8ms<span></span></span>",
+      "output": "这是一段中文代码注释 <br>",
+      "type": "code"
+    },
+    {
       "code": "// Or uee functions\nfunction greet(who){\n   scrib.show(\"Hello \"+who); \n}\ngreet(\"world\")",
       "status": "[2]<br><span style=\"font-size:8px\">0ms<span></span></span>",
       "output": "Hello world <br>",
