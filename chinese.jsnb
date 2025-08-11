@@ -27,8 +27,8 @@
       "type": "html"
     },
     {
-      "code": "\"这是一段中文代码注释\"",
-      "status": "[1]<br><span style=\"font-size:8px\">5ms<span></span></span>",
+      "code": "//testing\n\"这是一段中文代码注释\"",
+      "status": "[2]<br><span style=\"font-size:8px\">6ms<span></span></span>",
       "output": "这是一段中文代码注释 <br>",
       "type": "code"
     },
